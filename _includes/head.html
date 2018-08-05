@@ -6,30 +6,6 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-	<!--<link rel="stylesheet" href="{{"/assets/css/mycss.css"}}"> -->
-
-
-	<style>
-  	.site-category{
-  		padding-top: 1%;
-  		background-color: #fff;
-  		border-bottom: 1px solid rgba(0,0,0,0.1);
-  		clear: both;
-  		width: 100%;
-  	}
-
-  	.site-category ul{
-  		list-style: none;
-  		line-height: 1.5;
-  		text-align: center;
-  	}
-  	.site-category ul li
-  	{
-  		display: inline;
-  		padding: 0 10px;
-  	}
-	</style>
-
 
 	<!--Favicon-->
 	<link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
@@ -45,13 +21,13 @@
 
 	<!-- Google Fonts -->
 	{% if site.theme_settings.google_fonts %}
-	<link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family={{site.theme_settings.google_fonts}}" rel="stylesheet">
 	{% endif %}
 
 	<!-- KaTeX -->
-	{% if site.theme_settings.katex and page.id %}
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css" integrity="sha384-BTL0nVi8DnMrNdMQZG1Ww6yasK9ZGnUxL1ZWukXQ7fygA1py52yPp9W4wrR00VML" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.js" integrity="sha384-y6SGsNt7yZECc4Pf86XmQhC4hG2wxL6Upkt9N1efhFxfh6wlxBH0mJiTE8XYclC1" crossorigin="anonymous"></script>
+	{% if site.theme_settings.katex %}
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.js"></script>
 	{% endif %}
 
 	<!-- Google Analytics -->

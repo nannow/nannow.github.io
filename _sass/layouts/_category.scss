@@ -1,0 +1,10 @@
+// Post listing
+.posts-list {
+  @extend %padding-regular;
+  list-style: none;
+  li{
+    a{
+      font-weight: bold;
+    }
+  }
+}
