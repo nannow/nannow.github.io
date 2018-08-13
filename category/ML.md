@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Ml
+title: ML
 ---
 
 Another sample category page.
