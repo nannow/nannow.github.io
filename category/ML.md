@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Pytorch
+title: Ml
 ---
 
 Another sample category page.
