@@ -6,7 +6,7 @@ url: "https://nannow.github.io"
 theme_settings:
   # Meta
   title: Han Sang Hyun
-  avatar: assets/img/mycharacter.jpg
+  avatar: assets/img/images.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "" # used by search engines
