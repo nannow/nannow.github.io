@@ -18,7 +18,6 @@ tags: [Statistics]
 
 PDF 링크 : [https://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)
 
-Statistics 카테고리에 각 장마다 간단한 정리와 리뷰를 남길 것이다. 책에 있는 내용을 대놓고 언급하는 건 아마 저작권에 문제가 있을 것 같기도 해서 간단하게만 남기겠다. 1장은 간단한 도입부라 생략하고 그냥 내가 이 책을 공부하기까지 나의 과정과 생각을 남겼다. 
 
 <br><br>
 
