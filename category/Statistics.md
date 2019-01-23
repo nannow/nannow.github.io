@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Kaggle
+title: Statistics
 ---
 
 Another sample category page.
