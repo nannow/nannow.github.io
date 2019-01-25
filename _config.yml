@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>대 학 생 개 발 자</p>
+     <p>나의 다이어리</p>
 
   header_text_feature_image:
   footer_text: >
