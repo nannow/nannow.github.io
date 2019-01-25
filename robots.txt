@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nannow.github.io/sitemap.xml
