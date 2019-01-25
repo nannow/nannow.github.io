@@ -4,12 +4,13 @@
   <body>
     {% include header.html %}
     {% include index.html %}
+
     <div class="content">
       {{ content }}
     </div>
     {% include footer.html %}
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 
-    {% include analytics-google.html %}
+    {% include analytics.html %}
   </body>
 </html>
