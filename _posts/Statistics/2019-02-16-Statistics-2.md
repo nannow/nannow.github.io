@@ -2,6 +2,7 @@
 layout: post
 title: 생물통계학 in R - (1)
 comments: false
+use_math: true
 categories: [Statistics]
 tags: [Statistics]
 ---
