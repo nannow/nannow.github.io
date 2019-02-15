@@ -14,6 +14,9 @@ layout: default
   <section class="post-content">{{ content }}</section>
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 </article>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 <!-- Disqus -->
 {% if page.comments %}<a href="https://devYurim.github.io{{ page.url }}#disqus_thread"></a>{% endif %}
 {% if site.theme_settings.disqus_shortname %}
