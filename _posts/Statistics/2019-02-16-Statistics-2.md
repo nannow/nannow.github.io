@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 실험, 확률, 확률 변수 in R
+title: 실험, 확률, 확률 변수
 comments: false
 use_math: true
 categories: [Statistics]
@@ -12,7 +12,9 @@ tags: [Statistics]
 
 <br>
 ## <a id='setup'><font color="blue">Setting up the environment</font></a>
-
+<br>
+<font color="red">이 포스트에서는 예제를 실습하기 위해 R을 사용한다.</font>
+<br>
 ```{r}
 suppressMessages(library(tidyverse))
 suppressMessages(library(repr))

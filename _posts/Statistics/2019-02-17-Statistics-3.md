@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 분포의 주요 특성 in R
+title: 분포의 주요 특성
 comments: false
 use_math: true
 categories: [Statistics]
@@ -11,7 +11,9 @@ tags: [Statistics]
 ![biostatisticswordle](https://user-images.githubusercontent.com/17719651/52768499-07b12b80-3071-11e9-8b9b-1c451f8108e1.jpg)
 <br>
 ## <a id='setup'><font color="blue">Setting up the environment</font></a>
-
+<br>
+<font color="red">이 포스트에서는 예제를 실습하기 위해 R을 사용한다.</font>
+<br>
 ```{r}
 suppressMessages(library(tidyverse))
 suppressMessages(library(repr))
