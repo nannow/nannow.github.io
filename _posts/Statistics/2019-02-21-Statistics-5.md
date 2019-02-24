@@ -268,3 +268,6 @@ plot(roc(prediction_rf, Stroke_Data$stroke), main = "ROC", cex.axis=0.6, cex.mai
 ```
 
 <br><br>
+
+This post has been released under the Apache 2.0 open source license.
+<br><br>

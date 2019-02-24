@@ -43,7 +43,9 @@ sample mean : 표본 평균
 
 You could hear terms like *population mean* and *sample mean*. What's the difference? For example, you want to check duration of time from first exposure to HIV infection to AIDS diagnosis, so your *population* is going to be *every* human who had exposure to HIV. In real life it is never possible to gather information about population, but what you could is gather information about some people (*sample*) and then make assumptions about population based on information about the sample.
 <br><br>
+
 ![target-population](https://user-images.githubusercontent.com/17719651/52778397-494dd080-3089-11e9-9fb2-c9081de4e1c3.jpg)
+
 <br><br>
 * **표본 평균** 다음과 같은 식으로 정의된다. $\bar{X}=\frac{1}{n}\sum_{1}^{n}X_i$
 <br><br>
@@ -157,7 +159,6 @@ print(paste0("Sample standard deviation: ", round(sd(cholesterol), 3)))
 * **Histogram** : 데이터 그룹의 빈도를 보여주며 데이터 셋의 가장 빈번한 값이 어디인지를 알 수 있다. 데이터가 어느쪽으로 기울어져 있는지도 확인할 수 있다.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Example_histogram.png/220px-Example_histogram.png)
-
 * **Boxplot** : 데이터의 .25, .5, .75 분위수, 최소값 및 최대 값을 보여 주며, 특이점 검출에 편리하다.
 
 ![](https://pro.arcgis.com/en/pro-app/help/analysis/geoprocessing/charts/GUID-0E2C3730-C535-40CD-8152-80D794A996A7-web.png)
@@ -211,3 +212,6 @@ print(paste0("Correlation between Alcohol consumption and Death Rate from Cirrho
 ```
 
 위의 코드를 실행하면 상관값이 0.94가 나오는 것을 확인할 수 있고 따라서 알코올 소비와 간경화로 인한 사망률이 어떤 관계를 가지고 있는지 확인할 수 있다.<br><br>
+
+This post has been released under the Apache 2.0 open source license.
+<br><br>

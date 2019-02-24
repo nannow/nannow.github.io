@@ -120,7 +120,8 @@ $f(x)=\frac{x^4}{3}$, for $x \in (0;2)$ 라는 분포가 있다고 가정하자.
 #### 독립 사건
 
 $P(E \cap F)=P(E)P(F)$ 를 만족하는 $E$ 와 $F$ 는 서로 독립이다.
-<br>
+<br><br>
 
+This post has been released under the Apache 2.0 open source license.
 
 <br><br>

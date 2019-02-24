@@ -107,5 +107,6 @@ P(B|A)=\frac{P(A|B)P(B)}{P(A|B)P(B)+P(A|B^C)P(B^C)}
 
 위의 동영상에 근거해 설명을 하자면, 우리가 accuracy를 항상 신뢰할 수 없기 때문에 Precision 과 Recall 을 사용하고 그걸로도 부족하다 싶으면 ROC 와 AUC를 사용한다고 한다.<br><br>
 
+This post has been released under the Apache 2.0 open source license.
 
 <br><br>
